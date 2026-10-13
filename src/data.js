@@ -13,6 +13,8 @@ import universityImg from './assets/project univercity.png'
 import interactiveShapesImg from './assets/interactive shapes.png'
 import todoImg from './assets/to do list.png'
 import todoSqlImg from './assets/to-do-list-sql.png'
+import kbQuizImg from './assets/KBquiez.png'
+import budgetImg from './assets/budget-web.png'
 import profileImg from './assets/tumelo bokote.jpeg'
 
 // Set to an imported image (e.g. `import me from './assets/me.jpg'`) to replace the placeholder.
@@ -150,6 +152,7 @@ export const projects = [
     type: 'javascript',
     live: 'https://tumelo7843.github.io/KBquiez/',
     code: 'https://github.com/Tumelo7843/KBquiez',
+    image: kbQuizImg,
   },
   {
     title: 'University application',
@@ -183,6 +186,8 @@ export const projects = [
     description: 'Add income and expense items and see your totals and net income update.',
     stack: ['HTML', 'CSS', 'JavaScript'],
     type: 'javascript',
+    live: 'https://tumelo7843.github.io/budget-web/',
+    image: budgetImg,
     code: 'https://github.com/Tumelo7843/budget-web',
   },
   // Private or empty repos — add details and uncomment when ready:
