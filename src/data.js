@@ -6,9 +6,17 @@ import weatherImg from './assets/weather.jpg'
 import newsImg from './assets/news.jpg'
 import socialImg from './assets/social.jpg'
 import scrapeImg from './assets/scrape.jpg'
+import storeDashImg from './assets/storeDash.png'
+import mntungwaImg from './assets/mntungwa.png'
+import movieImg from './assets/movie update.png'
+import universityImg from './assets/project univercity.png'
+import interactiveShapesImg from './assets/interactive shapes.png'
+import todoImg from './assets/to do list.png'
+import todoSqlImg from './assets/to-do-list-sql.png'
+import profileImg from './assets/tumelo bokote.jpeg'
 
 // Set to an imported image (e.g. `import me from './assets/me.jpg'`) to replace the placeholder.
-export const profilePhoto = null
+export const profilePhoto = profileImg
 
 export const profile = {
   name: 'Tumelo Bokote',
@@ -64,7 +72,7 @@ export const featured = [
     stack: ['React', 'TypeScript', 'Tailwind', 'Express', 'PostgreSQL', 'Firebase Auth', 'Leaflet', 'Expo'],
     live: 'https://storedash-store-locator-admin-custo.vercel.app',
     code: 'https://github.com/Tumelo7843/storedash-store-locator---admin',
-    image: null,
+    image: storeDashImg,
     art: 'map',
   },
   {
@@ -75,7 +83,7 @@ export const featured = [
     stack: ['React', 'React Router', 'Supabase', 'Vercel'],
     live: 'https://mntungwa-chi.vercel.app',
     code: 'https://github.com/Tumelo7843/Mntungwa',
-    image: null,
+    image: mntungwaImg,
     art: 'course',
   },
   {
@@ -105,6 +113,7 @@ export const projects = [
     stack: ['HTML', 'CSS', 'JavaScript', 'TMDB API'],
     type: 'javascript',
     live: 'https://tumelo7843.github.io/movie-update/',
+    image: movieImg,
     code: 'https://github.com/Tumelo7843/movie-update',
   },
   {
@@ -131,6 +140,7 @@ export const projects = [
     stack: ['HTML', 'CSS', 'JavaScript'],
     type: 'javascript',
     live: 'https://tumelo7843.github.io/priority-to-do-list/',
+    image: todoImg,
     code: 'https://github.com/Tumelo7843/priority-to-do-list',
   },
   {
@@ -147,6 +157,7 @@ export const projects = [
     stack: ['HTML', 'CSS', 'JavaScript'],
     type: 'javascript',
     live: 'https://project-uni-application.vercel.app/https://project-uni-application.vercel.app/',
+    image: universityImg,
     code: 'https://github.com/Tumelo7843/project-uni-application',
   },
   {
@@ -155,6 +166,7 @@ export const projects = [
     stack: ['HTML', 'CSS', 'JavaScript', 'SVG', 'Canvas'],
     type: 'javascript',
     live: 'https://tumelo7843.github.io/Interactive-shapes/',
+    image: interactiveShapesImg,
     code: 'https://github.com/Tumelo7843/Interactive-shapes',
   },
   {
@@ -163,6 +175,7 @@ export const projects = [
     stack: ['HTML', 'CSS'],
     type: 'javascript',
     live: 'https://tumelo7843.github.io/to-do-list-sql/',
+    image: todoSqlImg,
     code: 'https://github.com/Tumelo7843/to-do-list-sql',
   },
   {
